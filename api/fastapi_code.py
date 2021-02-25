@@ -5,7 +5,7 @@ app = FastAPI()
 
 @app.get("/")
 def home1():
-    return {"Hello": "Pedro"}
+    return {"Hello": "Pedro1"}
     
 @app.get("/first/{id}")
 def first(id: int):
